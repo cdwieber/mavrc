@@ -1,0 +1,48 @@
+// Your custom SCSS should be written here...
+
+p.subnav {
+	text-align: center;
+}
+p.bullets {
+	margin: 20px
+}
+p.post-meta {
+	color: #adadad;
+	font-size: .75em
+}
+a:visited {
+	color: $panther-gold;
+	text-decoration: none;
+}
+
+.drawer {
+	/* background-image:  url('../img/white_wall_hash.png'); 
+	border: 5px solid #736357;*/
+}
+i.ico {
+	text-align: center;
+	font-size: 1em;
+	display: block;
+	float: left;
+}
+.close-dra {
+	transform: translateY(3px);
+	transition: transform .1s linear;
+}
+.close-dra:hover {
+	transform: translateY(0px);
+	transition: transform .1s linear;
+}
+#collegeLogo {
+	background: none !important;
+	overflow: visible;
+	color: $black;
+}
+#collegelogo:hover {
+	text-decoration: none;
+}
+.logo {
+	font-family: futura, helvetica, sans-serif;
+	padding: 0px;
+	color: $black;
+}

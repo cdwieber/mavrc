@@ -1,0 +1,14 @@
+/*
+ Theme Name:     MAVRC Version 2
+ Theme URI:      mavrc.uwm.edu
+ Description:    Child of UWM v2
+ Author:         Chris Wieber, Student Union Marketing Dept
+ Author URI:     http://example.com
+ Template:       UWMParentV2
+ Version:        1.0.0
+*/
+
+@import url('../UWMParentV2/style.css');
+@import url('css/base.css');
+@import url('css/gumby.css');
+
