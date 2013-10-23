@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled source #
 ###################
 *.com
@@ -37,3 +38,20 @@ js/libs/.DS_Store
 .Trashes
 ehthumbs.db
 Thumbs.db
+=======
+.htaccess
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+sitemap.xml
+*.log
+wp-content/cache/
+wp-content/backups/
+sitemap.xml.gz
+.DS_Store
+.DS_Store?
+>>>>>>> 1da792a23057cbded6424bc5b4e12a063feb7c80
