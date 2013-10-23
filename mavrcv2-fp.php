@@ -68,11 +68,7 @@ Template Name: MAVRCv2 Home Page
 	</div>
 
 	<div class="six columns" id="main-blurb">
-<<<<<<< HEAD
 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/button.png" />
-=======
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/big-orange-button.png" />
->>>>>>> 3aa6a6bcd24632fc3a989fd7a20713d239d1ff0e
 		<?php if (have_posts()) : ?>  
 	        <?php while (have_posts()) : the_post(); ?>  
 	            <?php the_content(); ?>  
