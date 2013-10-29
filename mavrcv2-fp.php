@@ -126,6 +126,11 @@ Template Name: MAVRCv2 Home Page
 					Our veterans automatically join Student Veterans of America
 					</p>
 				</div>
+				<div class="row">
+					<div class="twelve columns">
+						<h3>Ready to apply? Find out your <a href="#">next steps...</a></h3>
+					</div>
+				</div>
 					<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#prospdrawer"><img class="close-dra" src="<?php echo get_stylesheet_directory_uri(); ?>/img/close.png" /></a>
@@ -135,7 +140,7 @@ Template Name: MAVRCv2 Home Page
 		</div>
 		<!--NEW DRAWER-->
 		<div class="drawer" id="newdrawer">
-			<h1> HEY HERE'S SOME STUFF </h1>
+			<h1> [copy goes here] </h1>
 				<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#newdrawer"><img class="close-dra" src="<?php echo get_stylesheet_directory_uri(); ?>/img/close.png" /></a>
@@ -144,7 +149,7 @@ Template Name: MAVRCv2 Home Page
 		</div>
 		<!--CURRENT DRAWER-->
 		<div class="drawer" id="currentdrawer">
-			<h1>HEY MORE STUFF</h1>
+			<h1>[copy goes here]</h1>
 				<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#currentdrawer">
