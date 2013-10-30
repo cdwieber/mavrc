@@ -86,6 +86,12 @@ Template Name: MAVRCv2 Home Page
 	<div class="twelve columns">
 		
 		<div class="drawer" id="prospdrawer">
+			<div class="row">	
+				<div class="twelve columns">
+					<h2> Why UWM?</h2>
+				</div>
+			</div>
+			<div class="row">
 				<div class="three columns">
 					<p class="bullets">
 					<i class="icon-check ico"></i>	
@@ -131,6 +137,7 @@ Template Name: MAVRCv2 Home Page
 						<h3>Ready to apply? Find out your <a href="#">next steps...</a></h3>
 					</div>
 				</div>
+			</div>
 					<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#prospdrawer"><img class="close-dra" src="<?php echo get_stylesheet_directory_uri(); ?>/img/close.png" /></a>
@@ -140,7 +147,25 @@ Template Name: MAVRCv2 Home Page
 		</div>
 		<!--NEW DRAWER-->
 		<div class="drawer" id="newdrawer">
-			<h1> [copy goes here] </h1>
+			<div class="row">
+				<div class="twelve columns">
+					<h2> Welcome to UWM! </h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="three columns">
+					<p>Find your way <a href="#">around campus.</a></p>
+				</div>
+				<div class="three columns">
+					<p>Discover useful <a href="#">resources</a> in the area.</p>
+				</div>
+				<div class="three columns">
+					<p>Get answers about your <a href="#">financial aid</a> deadlines and disbursement dates</P>
+				</div>
+				<div class="three columns">
+					<p>Get involved with student <a href="#">organizations, clubs, and veterans associations</a></p>
+				</div>
+			</div>
 				<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#newdrawer"><img class="close-dra" src="<?php echo get_stylesheet_directory_uri(); ?>/img/close.png" /></a>
@@ -149,7 +174,25 @@ Template Name: MAVRCv2 Home Page
 		</div>
 		<!--CURRENT DRAWER-->
 		<div class="drawer" id="currentdrawer">
-			<h1>[copy goes here]</h1>
+			<div class="row">
+				<div class="twelve columns">
+					<h2> We're here to help. </h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="three columns">
+					<p>Troubleshoot your <a href="#">VA payments</a></p>
+				</div>
+				<div class="three columns">
+					<p>Get info on the latest changes to <a href="#">VA Benefits</a></p>
+				</div>
+				<div class="three columns">
+					<p>Get answers about your <a href="#">financial aid</a> deadlines and disbursement dates</P>
+				</div>
+				<div class="three columns">
+					<p>Use our center to help find<a href="#">employment and internships</a></p>
+				</div>
+			</div>
 				<div class="row">
 						<div class="one centered column">
 							<a href="#" class="switch" gumby-trigger="|#currentdrawer">
