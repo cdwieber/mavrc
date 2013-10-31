@@ -65,10 +65,10 @@ Template Name: MAVRCv2 Home Page
 					</a>
 				</div>
 		</div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mavrc_access_button.png" />
 	</div>
 
 	<div class="six columns" id="main-blurb">
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/button.png" />
 		<?php if (have_posts()) : ?>  
 	        <?php while (have_posts()) : the_post(); ?>  
 	            <?php the_content(); ?>  
@@ -79,7 +79,17 @@ Template Name: MAVRCv2 Home Page
 	   	<?php rewind_posts(); ?>
 
 	</div>
-
+	<div class="row">
+		<div class="six columns">
+			<center>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/facebook_32.png" />
+		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/twitter_32.png" />
+		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/google_plus_32.png" />
+		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/linkedin_32.png" />
+		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/youtube_32.png" />
+			</center>
+		</div>
+	</div>
 </div>
 <!-- BEGIN PROSPECTIVE DRAWER -->
 <div class="row">
@@ -222,12 +232,7 @@ Template Name: MAVRCv2 Home Page
 		<?php wp_reset_query(); ?>
 	</div>
 	<div class="six columns">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/facebook_32.png" />
-	   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/twitter_32.png" />
-	   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/google_plus_32.png" />
-	   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/linkedin_32.png" />
-	   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/youtube_32.png" />
-		<?php echo do_shortcode("[gravityform id=1 title=true description=true ajax=true]"); ?>
-	</div>
+	<?php echo do_shortcode("[gravityform id=1 title=true description=true ajax=true]"); ?>
+</div>
 </div>
 <?php get_footer(); ?>
