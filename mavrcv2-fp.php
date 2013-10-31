@@ -36,7 +36,7 @@ Template Name: MAVRCv2 Home Page
 </div>
 <div class="row">
 	<div class="twelve columns" id="tagline">
-		<h3> How can MAVRC serve you today? </h3>
+		<h3> How can MAVRC serve you? </h3>
 	</div>
 </div>"
 <div class="row">
