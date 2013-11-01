@@ -45,7 +45,7 @@ Template Name: MAVRCv2 Home Page
 
 			<div class="four columns">
 				<a href="#" class="switch" gumby-trigger="#currentdrawer|#prospdrawer,#newdrawer">
-					<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/current-student.png" />
+					<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/current_tile.png" />
 					</p>
 				</a>
 			</div>
@@ -54,13 +54,13 @@ Template Name: MAVRCv2 Home Page
 
 			<div class="four columns">
 				<a href="#" class="switch" gumby-trigger="#newdrawer|#currentdrawer,#prospdrawer">
-					<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/new-student.png" />
+					<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/new_tile.png" />
 					</p>
 				</a>
 			</div>
 			<div class="four columns">
 					<a href="#" class="switch" gumby-trigger="#prospdrawer|#newdrawer,#currentdrawer">
-						<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/prospective-student.png" />
+						<p class="subnav"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/prospective_tile.png" />
 						</p>
 					</a>
 				</div>
