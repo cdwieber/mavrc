@@ -4,7 +4,21 @@ p.subnav {
 	text-align: center;
 }
 p.bullets {
-	margin: 20px
+	border: 1px #736357 solid;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+}
+a.bullets {
+	color: #000 !important;
+}
+a.bullets:hover {
+	color: #fff;
+	text-decoration: none;
+}
+p.bullets:hover {
+	background: #736357;
+	color: #fff;
 }
 p.post-meta {
 	color: #adadad;
@@ -16,8 +30,7 @@ a:visited {
 }
 
 .drawer {
-	/* background-image:  url('../img/white_wall_hash.png'); 
-	border: 5px solid #736357;*/
+	margin-top: 5px;
 }
 i.ico {
 	text-align: center;

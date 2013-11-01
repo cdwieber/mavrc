@@ -14,7 +14,9 @@ Template Name: MAVRCv2 Home Page
 		else {
 			$("#main-blurb").remove().insertAfter($("#categories"));
 		}
-	});
+
+
+
 
 	$(document).load($(window).bind("resize", listenWidth));
 
@@ -27,7 +29,10 @@ Template Name: MAVRCv2 Home Page
 			{
 				$("#main-blurb").remove().insertAfter($("#categories"));
 			}
-		}
+		}	
+
+//Handle star rollovers
+	
 </script>
 <div class="row">
 	<div class="twelve columns">
@@ -65,7 +70,9 @@ Template Name: MAVRCv2 Home Page
 					</a>
 				</div>
 		</div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mavrc_access_button.png" />
+		<a href="http://www4.uwm.edu/mebo/">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mavrc_access_button.png" />
+		</a>
 	</div>
 
 	<div class="six columns" id="main-blurb">
@@ -103,42 +110,42 @@ Template Name: MAVRCv2 Home Page
 			</div>
 			<div class="row">
 				<div class="three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 					We enroll the most student 
 					veterans in Wisconsin
 					</p>
 				</div>
 				<div class="three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 					We're a military friendly campus, a rare 
 					designation
 					</p>
 				</div>
 				<div class="three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 					Our campus is easy to get around for disabled 
 					students.
 					</p>
 				</div>
 				<div class="three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 				We're a proud member of the Yellow Ribbon Program
 					</p>
 				</div>
 			<div class="row">	
 				<div class="push_three three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 					Live and learn alongside fellow veterans in the PantherBarracks.
 					</p>
 				</div>
 				<div class="three columns">
-					<p class="bullets">
-					<i class="icon-check ico"></i>	
+					<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png"  />	
 					Our veterans automatically join Student Veterans of America
 					</p>
 				</div>
@@ -164,17 +171,23 @@ Template Name: MAVRCv2 Home Page
 			</div>
 			<div class="row">
 				<div class="three columns">
-					<p>Find your way <a href="#">around campus.</a></p>
+					<a href="http://www4.uwm.edu/discover/explore.cfm" class="bullets">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Find your way around campus.</p>
+					</a>
 				</div>
 				<div class="three columns">
-					<p>Discover useful <a href="#">resources</a> in the area.</p>
+					<a href="http://mavrc.uwm.dev/resources/" class="bullets">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Discover useful resources in the area.</p>
+					</a>
 				</div>
 				<div class="three columns">
-					<p>Get answers about your <a href="#">financial aid</a> deadlines and disbursement dates</P>
-				</div>
+					<a href="http://www4.uwm.edu/financialaid/" class="bullets">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Get answers about your financial aid deadlines and disbursement dates</P>
+				</a></div>
 				<div class="three columns">
-					<p>Get involved with student <a href="#">organizations, clubs, and veterans associations</a></p>
-				</div>
+					<a href="http://www4.uwm.edu/life/" class="bullets">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Get involved with student organizations, clubs, and veterans associations</p>
+				</a></div>
 			</div>
 				<div class="row">
 						<div class="one centered column">
@@ -191,16 +204,24 @@ Template Name: MAVRCv2 Home Page
 			</div>
 			<div class="row">
 				<div class="three columns">
-					<p>Troubleshoot your <a href="#">VA payments</a></p>
+					<a class="bullets" href="http://www4.uwm.edu/mebo/">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Troubleshoot your VA payments</p>
+					</a>
 				</div>
 				<div class="three columns">
-					<p>Get info on the latest changes to <a href="#">VA Benefits</a></p>
+					<a class="bullets" href="http://www4.uwm.edu/mebo/">
+						<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Get info on the latest changes to VA Benefits</p>
+					</a>
 				</div>
 				<div class="three columns">
-					<p>Get answers about your <a href="#">financial aid</a> deadlines and disbursement dates</P>
+					<a class="bullets" href="http://www4.uwm.edu/financialaid/">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Get answers about your financial aid deadlines and disbursement dates</P>
+					</a>
 				</div>
 				<div class="three columns">
-					<p>Use our center to help find<a href="#">employment and internships</a></p>
+					<a class="bullets" href="http://mavrc.uwm.dev/resources/#emp">
+					<p class="bullets"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.png" />Use our center to help find employment and internships</p>
+					</a>
 				</div>
 			</div>
 				<div class="row">
