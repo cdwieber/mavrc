@@ -84,7 +84,7 @@ function my_custom_init()
 	    'taxonomies' => array('category')
 	  );
 		register_post_type('faq',$args);
-		register_post_type('resource', $args_r)
+		register_post_type('resource', $args_r);
 
 }
 ?>
