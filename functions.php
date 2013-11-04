@@ -56,7 +56,35 @@ function my_custom_init()
 	    'hierarchical' => false,  
 	    'menu_position' => 5,  
 	    'supports' => array('title','editor','thumbnail','custom-fields')  
-	  );  
+	  );
+	$labels_r = array(  
+	   'name' => _x('Resources', 'post type general name'),  
+	   'singular_name' => _x('Resource', 'post type singular name'),  
+	   'add_new' => _x('Add New', 'Resource'),  
+	   'add_new_item' => __('Add New Resource'),  
+	   'edit_item' => __('Edit Resource'),  
+	   'new_item' => __('New Resource'),  
+	   'view_item' => __('View Resource'),  
+	   'search_items' => __('Search Resource'),  
+	   'not_found' =>  __('No Resources found'),  
+	   'not_found_in_trash' => __('No Resources found in Trash'),  
+	   'parent_item_colon' => ''  
+	 ); 
+	$args_r = array(  
+	    'labels' => $labels_r,  
+	    'public' => true,  
+	    'publicly_queryable' => true,  
+	    'show_ui' => true,  
+	    'query_var' => true,  
+	    'rewrite' => true,  
+	    'capability_type' => 'post',  
+	    'hierarchical' => false,  
+	    'menu_position' => 6,  
+	    'supports' => array('title','editor','thumbnail','custom-fields'),
+	    'taxonomies' => array('category')
+	  );
 		register_post_type('faq',$args);
+		register_post_type('resource', $args_r)
+
 }
 ?>

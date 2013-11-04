@@ -151,7 +151,7 @@ Template Name: MAVRCv2 Home Page
 				</div>
 				<div class="row">
 					<div class="twelve columns">
-						<h3>Ready to apply? Find out your <a href="#">next steps...</a></h3>
+						<h3>Ready to apply? Find out your <a href="http://www.uwm.edu/admissions">next steps...</a></h3>
 					</div>
 				</div>
 			</div>
