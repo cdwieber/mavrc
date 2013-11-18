@@ -59,3 +59,5 @@ sitemap.xml.gz
 *.scssc
 
 .sass-cache/f92d9e0b0eef594d45f4bb9709a79e6e44bd7384/_custom.scssc
+
+*.scssc

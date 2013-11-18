@@ -19,6 +19,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "mavrcv2-fp.php",
+			"settings":
+			{
+				"buffer_size": 8829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_custom.scss",
+			"settings":
+			{
+				"buffer_size": 930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 2706,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -66,6 +90,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data-hover=\"<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons_hover.png\"",
+			".jpg",
+			"<i class=\"icon-check ico\"></i>",
 			".entry-co",
 			".entry-c"
 		],
@@ -75,6 +102,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			".png",
+			"<img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/MAVRC_menu_buttons.jpg\" />"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -85,8 +115,90 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "mavrcv2-fp.php",
+					"settings":
+					{
+						"buffer_size": 8829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2953,
+								2322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/_custom.scss",
+					"settings":
+					{
+						"buffer_size": 930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 2706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2699,
+								2699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -123,7 +235,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

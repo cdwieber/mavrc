@@ -89,11 +89,17 @@ Template Name: MAVRCv2 Home Page
 	<div class="row">
 		<div class="six columns">
 			<center>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/facebook_32.png" />
-		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/twitter_32.png" />
+			<a href="https://www.facebook.com/uwmmavrc" target="_blank">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/facebook_32.png" />
+		   	</a>
+		   	<a href="https://twitter.com/UWM_MAVRC" target="_blank">
+		   		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/twitter_32.png" />
+		   	</a>
+		   	<!--
 		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/google_plus_32.png" />
 		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/linkedin_32.png" />
 		   	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/social/youtube_32.png" />
+			-->
 			</center>
 		</div>
 	</div>
